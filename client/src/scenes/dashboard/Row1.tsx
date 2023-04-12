@@ -1,7 +1,10 @@
 import DashboardBox from "@/reusable-components/dashboard-box"
+import  { useGetKpisQuery }  from "@/state/api"
 
 
 const Row1 = () => {
+  const { data }  = useGetKpisQuery()
+  console.log(data)
   return (
     <>
         <DashboardBox gridArea='a'></DashboardBox>
