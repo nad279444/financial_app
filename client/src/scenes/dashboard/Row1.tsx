@@ -135,7 +135,7 @@ const Row1 = () => {
               fillOpacity={1}
               fill="url(#colorExpenses)"
             />
-          </AreaChart>
+          </AreaChart> 
         </ResponsiveContainer>
       </DashboardBox>
 
