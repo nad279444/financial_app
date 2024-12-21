@@ -41,7 +41,7 @@ const Row3 = () => {
 
   const productColumns = [
     {
-      field: "_id",
+      field: "id",
       headerName: "id",
       flex: 1,
     },
@@ -61,7 +61,7 @@ const Row3 = () => {
 
   const transactionColumns = [
     {
-      field: "_id",
+      field: "id",
       headerName: "id",
       flex: 1,
     },

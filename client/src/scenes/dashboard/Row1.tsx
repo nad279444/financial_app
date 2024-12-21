@@ -55,7 +55,7 @@ const Row1 = () => {
         return {
           name: month.substring(0, 3),
           revenue: revenue,
-          profit: (revenue - expenses).toFixed(2),
+          profit: (revenue - expenses),
         };
       })
     );

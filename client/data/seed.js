@@ -1,6 +1,6 @@
 export const kpis = [
     {
-      _id: "63bf8239f03239e002001612",
+      id: "63bf8239f03239e002001612",
       totalProfit: "$212000.00",
       totalRevenue: "$283000.00",
       totalExpenses: "$71000.00",
@@ -467,7 +467,7 @@ export const kpis = [
   
   export const products = [
     {
-      _id: "63bf7ac9f03239e002001600",
+      id: "63bf7ac9f03239e002001600",
       price: "$43.41",
       expense: "$5.97",
       transactions: [
@@ -478,7 +478,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239e002001601",
+      id: "63bf7ac9f03239e002001601",
       price: "$60.13",
       expense: "$9.12",
       transactions: [
@@ -489,13 +489,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239e002001602",
+      id: "63bf7ac9f03239e002001602",
       price: "$195.05",
       expense: "$6.72",
       transactions: ["63bf7ccef03239e002001606", "63bf7ccef0323922d200169a"],
     },
     {
-      _id: "63bf7ac9f03239e002001603",
+      id: "63bf7ac9f03239e002001603",
       price: "$46.25",
       expense: "$9.95",
       transactions: [
@@ -505,7 +505,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239e002001604",
+      id: "63bf7ac9f03239e002001604",
       price: "$87.41",
       expense: "$7.97",
       transactions: [
@@ -517,7 +517,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239e002001605",
+      id: "63bf7ac9f03239e002001605",
       price: "$73.28",
       expense: "$7.85",
       transactions: [
@@ -529,13 +529,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239343e00169b",
+      id: "63bf7ac9f03239343e00169b",
       price: "$130.65",
       expense: "$7.95",
       transactions: ["63bf7ccef0323901e6001560", "63bf7ccef032396d89000013"],
     },
     {
-      _id: "63bf7ac9f03239343e00169c",
+      id: "63bf7ac9f03239343e00169c",
       price: "$198.54",
       expense: "$9.50",
       transactions: [
@@ -546,13 +546,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239343e00169d",
+      id: "63bf7ac9f03239343e00169d",
       price: "$147.32",
       expense: "$5.86",
       transactions: ["63bf7ccef03239343e0016a9", "63bf7ccef03239f920001690"],
     },
     {
-      _id: "63bf7ac9f03239343e00169e",
+      id: "63bf7ac9f03239343e00169e",
       price: "$187.22",
       expense: "$5.82",
       transactions: [
@@ -562,7 +562,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239343e00169f",
+      id: "63bf7ac9f03239343e00169f",
       price: "$162.43",
       expense: "$3.28",
       transactions: [
@@ -572,13 +572,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239343e0016a0",
+      id: "63bf7ac9f03239343e0016a0",
       price: "$30.09",
       expense: "$8.55",
       transactions: ["63bf7ccef03239343e0016a3"],
     },
     {
-      _id: "63bf7ac9f0323901e6001551",
+      id: "63bf7ac9f0323901e6001551",
       price: "$31.07",
       expense: "$4.98",
       transactions: [
@@ -590,7 +590,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323901e6001552",
+      id: "63bf7ac9f0323901e6001552",
       price: "$12.21",
       expense: "$6.82",
       transactions: [
@@ -602,7 +602,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323901e6001553",
+      id: "63bf7ac9f0323901e6001553",
       price: "$76.31",
       expense: "$3.84",
       transactions: [
@@ -612,7 +612,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323901e6001554",
+      id: "63bf7ac9f0323901e6001554",
       price: "$169.87",
       expense: "$8.35",
       transactions: [
@@ -622,7 +622,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323901e6001555",
+      id: "63bf7ac9f0323901e6001555",
       price: "$187.36",
       expense: "$8.12",
       transactions: [
@@ -632,7 +632,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323901e6001556",
+      id: "63bf7ac9f0323901e6001556",
       price: "$67.29",
       expense: "$6.32",
       transactions: [
@@ -642,7 +642,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032394cbd001699",
+      id: "63bf7ac9f032394cbd001699",
       price: "$85.35",
       expense: "$9.33",
       transactions: [
@@ -653,7 +653,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032394cbd00169a",
+      id: "63bf7ac9f032394cbd00169a",
       price: "$35.75",
       expense: "$9.93",
       transactions: [
@@ -663,7 +663,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032394cbd00169b",
+      id: "63bf7ac9f032394cbd00169b",
       price: "$59.80",
       expense: "$1.51",
       transactions: [
@@ -675,19 +675,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032394cbd00169c",
+      id: "63bf7ac9f032394cbd00169c",
       price: "$86.45",
       expense: "$3.55",
       transactions: ["63bf7ccef032396d8900000f"],
     },
     {
-      _id: "63bf7ac9f032394cbd00169d",
+      id: "63bf7ac9f032394cbd00169d",
       price: "$142.21",
       expense: "$1.85",
       transactions: ["63bf7ccef032396a8e001698", "63bf7ccef03239eb9d0016d0"],
     },
     {
-      _id: "63bf7ac9f032394cbd00169e",
+      id: "63bf7ac9f032394cbd00169e",
       price: "$10.01",
       expense: "$5.61",
       transactions: [
@@ -699,37 +699,37 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239cf1b001698",
+      id: "63bf7ac9f03239cf1b001698",
       price: "$112.78",
       expense: "$6.74",
       transactions: ["63bf7ccef032396a8e00169d", "63bf7ccef032396a8e001695"],
     },
     {
-      _id: "63bf7ac9f03239cf1b001699",
+      id: "63bf7ac9f03239cf1b001699",
       price: "$156.34",
       expense: "$6.26",
       transactions: ["63bf7ccef03239e002001606"],
     },
     {
-      _id: "63bf7ac9f03239cf1b00169a",
+      id: "63bf7ac9f03239cf1b00169a",
       price: "$119.34",
       expense: "$8.62",
       transactions: ["63bf7ccef0323975d600169e", "63bf7ccef03239554c00244b"],
     },
     {
-      _id: "63bf7ac9f03239cf1b00169b",
+      id: "63bf7ac9f03239cf1b00169b",
       price: "$87.49",
       expense: "$8.74",
       transactions: ["63bf7ccef03239343e0016ac", "63bf7ccef0323937a5001698"],
     },
     {
-      _id: "63bf7ac9f03239cf1b00169c",
+      id: "63bf7ac9f03239cf1b00169c",
       price: "$34.52",
       expense: "$2.31",
       transactions: ["63bf7ccef03239aec9001562", "63bf7ccef0323937a500168d"],
     },
     {
-      _id: "63bf7ac9f03239cf1b00169d",
+      id: "63bf7ac9f03239cf1b00169d",
       price: "$90.83",
       expense: "$7.83",
       transactions: [
@@ -741,7 +741,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239aec9001551",
+      id: "63bf7ac9f03239aec9001551",
       price: "$181.98",
       expense: "$3.02",
       transactions: [
@@ -752,13 +752,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239aec9001552",
+      id: "63bf7ac9f03239aec9001552",
       price: "$62.17",
       expense: "$9.52",
       transactions: ["63bf7ccef03239855d00155e", "63bf7ccef03239966c00169e"],
     },
     {
-      _id: "63bf7ac9f03239aec9001553",
+      id: "63bf7ac9f03239aec9001553",
       price: "$83.76",
       expense: "$1.09",
       transactions: [
@@ -769,7 +769,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239aec9001554",
+      id: "63bf7ac9f03239aec9001554",
       price: "$62.47",
       expense: "$2.38",
       transactions: [
@@ -781,7 +781,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239aec9001555",
+      id: "63bf7ac9f03239aec9001555",
       price: "$54.68",
       expense: "$5.12",
       transactions: [
@@ -792,7 +792,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239aec9001556",
+      id: "63bf7ac9f03239aec9001556",
       price: "$91.72",
       expense: "$4.73",
       transactions: [
@@ -802,7 +802,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239554c002443",
+      id: "63bf7ac9f03239554c002443",
       price: "$159.65",
       expense: "$3.79",
       transactions: [
@@ -814,7 +814,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239554c002444",
+      id: "63bf7ac9f03239554c002444",
       price: "$190.89",
       expense: "$5.24",
       transactions: [
@@ -826,7 +826,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239554c002445",
+      id: "63bf7ac9f03239554c002445",
       price: "$155.13",
       expense: "$1.68",
       transactions: [
@@ -837,13 +837,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239554c002446",
+      id: "63bf7ac9f03239554c002446",
       price: "$43.82",
       expense: "$7.85",
       transactions: ["63bf7ccef03239eb9d0016dd", "63bf7ccef0323901e6001557"],
     },
     {
-      _id: "63bf7ac9f03239554c002447",
+      id: "63bf7ac9f03239554c002447",
       price: "$58.31",
       expense: "$9.94",
       transactions: [
@@ -854,7 +854,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239554c002448",
+      id: "63bf7ac9f03239554c002448",
       price: "$138.47",
       expense: "$6.40",
       transactions: [
@@ -864,7 +864,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032397420001696",
+      id: "63bf7ac9f032397420001696",
       price: "$10.40",
       expense: "$3.20",
       transactions: [
@@ -875,13 +875,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032397420001697",
+      id: "63bf7ac9f032397420001697",
       price: "$22.48",
       expense: "$5.36",
       transactions: ["63bf7ccef03239cf1b0016a6", "63bf7ccef03239eb9d0016df"],
     },
     {
-      _id: "63bf7ac9f032397420001698",
+      id: "63bf7ac9f032397420001698",
       price: "$92.16",
       expense: "$9.12",
       transactions: [
@@ -892,7 +892,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032397420001699",
+      id: "63bf7ac9f032397420001699",
       price: "$140.77",
       expense: "$9.02",
       transactions: [
@@ -902,7 +902,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239742000169a",
+      id: "63bf7ac9f03239742000169a",
       price: "$100.62",
       expense: "$6.55",
       transactions: [
@@ -913,7 +913,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239742000169b",
+      id: "63bf7ac9f03239742000169b",
       price: "$69.13",
       expense: "$6.26",
       transactions: [
@@ -923,7 +923,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239966c001692",
+      id: "63bf7ac9f03239966c001692",
       price: "$124.82",
       expense: "$8.49",
       transactions: [
@@ -935,7 +935,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239966c001693",
+      id: "63bf7ac9f03239966c001693",
       price: "$196.68",
       expense: "$3.32",
       transactions: [
@@ -947,7 +947,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239966c001694",
+      id: "63bf7ac9f03239966c001694",
       price: "$172.48",
       expense: "$2.38",
       transactions: [
@@ -959,13 +959,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239966c001695",
+      id: "63bf7ac9f03239966c001695",
       price: "$112.84",
       expense: "$4.34",
       transactions: ["63bf7ccef032396d89000013", "63bf7ccef03239554c00244c"],
     },
     {
-      _id: "63bf7ac9f03239966c001696",
+      id: "63bf7ac9f03239966c001696",
       price: "$37.97",
       expense: "$5.76",
       transactions: [
@@ -977,7 +977,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239966c001697",
+      id: "63bf7ac9f03239966c001697",
       price: "$123.72",
       expense: "$2.85",
       transactions: [
@@ -987,19 +987,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323975d6001692",
+      id: "63bf7ac9f0323975d6001692",
       price: "$15.02",
       expense: "$2.00",
       transactions: ["63bf7ccef032396a8e001697", "63bf7ccef0323975d6001698"],
     },
     {
-      _id: "63bf7ac9f0323975d6001693",
+      id: "63bf7ac9f0323975d6001693",
       price: "$19.69",
       expense: "$2.65",
       transactions: ["63bf7ccef0323937a500168e"],
     },
     {
-      _id: "63bf7ac9f0323975d6001694",
+      id: "63bf7ac9f0323975d6001694",
       price: "$30.80",
       expense: "$5.02",
       transactions: [
@@ -1010,13 +1010,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323975d6001695",
+      id: "63bf7ac9f0323975d6001695",
       price: "$90.56",
       expense: "$2.93",
       transactions: ["63bf7ccef0323975d600169d"],
     },
     {
-      _id: "63bf7ac9f0323975d6001696",
+      id: "63bf7ac9f0323975d6001696",
       price: "$30.37",
       expense: "$8.63",
       transactions: [
@@ -1026,7 +1026,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323975d6001697",
+      id: "63bf7ac9f0323975d6001697",
       price: "$149.26",
       expense: "$1.33",
       transactions: [
@@ -1037,7 +1037,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032396a8e00168e",
+      id: "63bf7ac9f032396a8e00168e",
       price: "$167.45",
       expense: "$9.30",
       transactions: [
@@ -1047,25 +1047,25 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032396a8e00168f",
+      id: "63bf7ac9f032396a8e00168f",
       price: "$50.36",
       expense: "$4.38",
       transactions: ["63bf7ccef032394f5f00243f"],
     },
     {
-      _id: "63bf7ac9f032396a8e001690",
+      id: "63bf7ac9f032396a8e001690",
       price: "$151.61",
       expense: "$2.27",
       transactions: ["63bf7ccef03239966c001699", "63bf7ccef03239742000169f"],
     },
     {
-      _id: "63bf7ac9f032396a8e001691",
+      id: "63bf7ac9f032396a8e001691",
       price: "$191.46",
       expense: "$5.60",
       transactions: ["63bf7ccef0323901e600155f"],
     },
     {
-      _id: "63bf7ac9f032396a8e001692",
+      id: "63bf7ac9f032396a8e001692",
       price: "$131.96",
       expense: "$8.80",
       transactions: [
@@ -1077,43 +1077,43 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032396a8e001693",
+      id: "63bf7ac9f032396a8e001693",
       price: "$164.96",
       expense: "$4.16",
       transactions: ["63bf7ccef03239eb9d0016d8"],
     },
     {
-      _id: "63bf7ac9f032395ccf00168e",
+      id: "63bf7ac9f032395ccf00168e",
       price: "$13.57",
       expense: "$5.18",
       transactions: ["63bf7ccef032395ccf001695"],
     },
     {
-      _id: "63bf7ac9f032395ccf00168f",
+      id: "63bf7ac9f032395ccf00168f",
       price: "$177.57",
       expense: "$7.04",
       transactions: ["63bf7ccef0323922d2001698", "63bf7ccef03239855d00155c"],
     },
     {
-      _id: "63bf7ac9f032395ccf001690",
+      id: "63bf7ac9f032395ccf001690",
       price: "$172.71",
       expense: "$5.73",
       transactions: ["63bf7ccef03239966c00169d"],
     },
     {
-      _id: "63bf7ac9f032395ccf001691",
+      id: "63bf7ac9f032395ccf001691",
       price: "$17.48",
       expense: "$4.81",
       transactions: ["63bf7ccef0323974200016a0", "63bf7ccef0323937a5001692"],
     },
     {
-      _id: "63bf7ac9f032395ccf001692",
+      id: "63bf7ac9f032395ccf001692",
       price: "$54.13",
       expense: "$7.44",
       transactions: ["63bf7ccef0323922d2001694", "63bf7ccef03239eb9d0016df"],
     },
     {
-      _id: "63bf7ac9f032395ccf001693",
+      id: "63bf7ac9f032395ccf001693",
       price: "$155.93",
       expense: "$9.10",
       transactions: [
@@ -1124,13 +1124,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032397b4f0015fb",
+      id: "63bf7ac9f032397b4f0015fb",
       price: "$13.34",
       expense: "$6.17",
       transactions: ["63bf7ccef03239cf1b0016a4"],
     },
     {
-      _id: "63bf7ac9f032397b4f0015fc",
+      id: "63bf7ac9f032397b4f0015fc",
       price: "$75.89",
       expense: "$1.11",
       transactions: [
@@ -1141,7 +1141,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032397b4f0015fd",
+      id: "63bf7ac9f032397b4f0015fd",
       price: "$153.85",
       expense: "$6.99",
       transactions: [
@@ -1153,7 +1153,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032397b4f0015fe",
+      id: "63bf7ac9f032397b4f0015fe",
       price: "$187.83",
       expense: "$6.66",
       transactions: [
@@ -1164,7 +1164,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032397b4f0015ff",
+      id: "63bf7ac9f032397b4f0015ff",
       price: "$119.33",
       expense: "$1.40",
       transactions: [
@@ -1176,13 +1176,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032397b4f001600",
+      id: "63bf7ac9f032397b4f001600",
       price: "$54.00",
       expense: "$5.61",
       transactions: ["63bf7ccef03239554c002454", "63bf7ccef032394cbd0016a9"],
     },
     {
-      _id: "63bf7ac9f0323922d200168e",
+      id: "63bf7ac9f0323922d200168e",
       price: "$144.81",
       expense: "$7.45",
       transactions: [
@@ -1192,19 +1192,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323922d200168f",
+      id: "63bf7ac9f0323922d200168f",
       price: "$37.04",
       expense: "$5.86",
       transactions: ["63bf7ccef0323974200016a5"],
     },
     {
-      _id: "63bf7ac9f0323922d2001690",
+      id: "63bf7ac9f0323922d2001690",
       price: "$161.03",
       expense: "$4.48",
       transactions: ["63bf7ccef03239966c00169a"],
     },
     {
-      _id: "63bf7ac9f0323922d2001691",
+      id: "63bf7ac9f0323922d2001691",
       price: "$73.46",
       expense: "$7.95",
       transactions: [
@@ -1216,13 +1216,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323922d2001692",
+      id: "63bf7ac9f0323922d2001692",
       price: "$120.96",
       expense: "$8.90",
       transactions: ["63bf7ccef032396a8e00169e", "63bf7ccef032397b4f001603"],
     },
     {
-      _id: "63bf7ac9f0323922d2001693",
+      id: "63bf7ac9f0323922d2001693",
       price: "$34.46",
       expense: "$9.25",
       transactions: [
@@ -1234,19 +1234,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032396d89000007",
+      id: "63bf7ac9f032396d89000007",
       price: "$172.27",
       expense: "$3.92",
       transactions: ["63bf7ccef03239554c00244b"],
     },
     {
-      _id: "63bf7ac9f032396d89000008",
+      id: "63bf7ac9f032396d89000008",
       price: "$20.54",
       expense: "$8.12",
       transactions: ["63bf7ccef03239855d001558"],
     },
     {
-      _id: "63bf7ac9f032396d89000009",
+      id: "63bf7ac9f032396d89000009",
       price: "$80.31",
       expense: "$7.04",
       transactions: [
@@ -1256,19 +1256,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032396d8900000a",
+      id: "63bf7ac9f032396d8900000a",
       price: "$77.67",
       expense: "$4.14",
       transactions: ["63bf7ccef03239343e0016ab"],
     },
     {
-      _id: "63bf7ac9f032396d8900000b",
+      id: "63bf7ac9f032396d8900000b",
       price: "$47.25",
       expense: "$5.53",
       transactions: ["63bf7ccef03239343e0016a8", "63bf7ccef032394f5f00243e"],
     },
     {
-      _id: "63bf7ac9f032396d8900000c",
+      id: "63bf7ac9f032396d8900000c",
       price: "$181.02",
       expense: "$7.57",
       transactions: [
@@ -1280,7 +1280,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239f920001689",
+      id: "63bf7ac9f03239f920001689",
       price: "$67.20",
       expense: "$8.37",
       transactions: [
@@ -1292,19 +1292,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239f92000168a",
+      id: "63bf7ac9f03239f92000168a",
       price: "$58.15",
       expense: "$3.19",
       transactions: ["63bf7ccef03239f920001690"],
     },
     {
-      _id: "63bf7ac9f03239f92000168b",
+      id: "63bf7ac9f03239f92000168b",
       price: "$145.65",
       expense: "$3.83",
       transactions: ["63bf7ccef032394cbd0016aa"],
     },
     {
-      _id: "63bf7ac9f03239f92000168c",
+      id: "63bf7ac9f03239f92000168c",
       price: "$134.08",
       expense: "$7.03",
       transactions: [
@@ -1316,7 +1316,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239f92000168d",
+      id: "63bf7ac9f03239f92000168d",
       price: "$33.79",
       expense: "$4.54",
       transactions: [
@@ -1328,7 +1328,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239f92000168e",
+      id: "63bf7ac9f03239f92000168e",
       price: "$182.10",
       expense: "$9.54",
       transactions: [
@@ -1339,7 +1339,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032394f5f002433",
+      id: "63bf7ac9f032394f5f002433",
       price: "$129.93",
       expense: "$1.15",
       transactions: [
@@ -1350,7 +1350,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032394f5f002434",
+      id: "63bf7ac9f032394f5f002434",
       price: "$148.47",
       expense: "$1.63",
       transactions: [
@@ -1361,7 +1361,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032394f5f002435",
+      id: "63bf7ac9f032394f5f002435",
       price: "$13.52",
       expense: "$9.76",
       transactions: [
@@ -1372,7 +1372,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032394f5f002436",
+      id: "63bf7ac9f032394f5f002436",
       price: "$120.88",
       expense: "$5.94",
       transactions: [
@@ -1382,13 +1382,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f032394f5f002437",
+      id: "63bf7ac9f032394f5f002437",
       price: "$153.54",
       expense: "$9.63",
       transactions: ["63bf7ccef03239eb9d0016d0", "63bf7ccef032396d89000010"],
     },
     {
-      _id: "63bf7ac9f032394f5f002438",
+      id: "63bf7ac9f032394f5f002438",
       price: "$35.74",
       expense: "$8.71",
       transactions: [
@@ -1400,7 +1400,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323937a5001687",
+      id: "63bf7ac9f0323937a5001687",
       price: "$120.21",
       expense: "$5.00",
       transactions: [
@@ -1412,13 +1412,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323937a5001688",
+      id: "63bf7ac9f0323937a5001688",
       price: "$180.06",
       expense: "$6.39",
       transactions: ["63bf7ccef03239554c002453"],
     },
     {
-      _id: "63bf7ac9f0323937a5001689",
+      id: "63bf7ac9f0323937a5001689",
       price: "$92.70",
       expense: "$5.53",
       transactions: [
@@ -1428,7 +1428,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323937a500168a",
+      id: "63bf7ac9f0323937a500168a",
       price: "$35.39",
       expense: "$2.89",
       transactions: [
@@ -1439,7 +1439,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323937a500168b",
+      id: "63bf7ac9f0323937a500168b",
       price: "$159.59",
       expense: "$3.54",
       transactions: [
@@ -1450,7 +1450,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f0323937a500168c",
+      id: "63bf7ac9f0323937a500168c",
       price: "$116.66",
       expense: "$5.60",
       transactions: [
@@ -1461,7 +1461,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239855d001551",
+      id: "63bf7ac9f03239855d001551",
       price: "$19.66",
       expense: "$6.43",
       transactions: [
@@ -1471,7 +1471,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239855d001552",
+      id: "63bf7ac9f03239855d001552",
       price: "$99.78",
       expense: "$7.03",
       transactions: [
@@ -1483,13 +1483,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239855d001553",
+      id: "63bf7ac9f03239855d001553",
       price: "$145.56",
       expense: "$9.40",
       transactions: ["63bf7ccef0323922d2001694"],
     },
     {
-      _id: "63bf7ac9f03239855d001554",
+      id: "63bf7ac9f03239855d001554",
       price: "$133.65",
       expense: "$1.03",
       transactions: [
@@ -1501,19 +1501,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239855d001555",
+      id: "63bf7ac9f03239855d001555",
       price: "$174.42",
       expense: "$5.30",
       transactions: ["63bf7ccef03239aec9001558"],
     },
     {
-      _id: "63bf7ac9f03239855d001556",
+      id: "63bf7ac9f03239855d001556",
       price: "$77.55",
       expense: "$1.01",
       transactions: ["63bf7ccef03239e002001607"],
     },
     {
-      _id: "63bf7ac9f03239eb9d0016c3",
+      id: "63bf7ac9f03239eb9d0016c3",
       price: "$103.01",
       expense: "$6.81",
       transactions: [
@@ -1525,19 +1525,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239eb9d0016c4",
+      id: "63bf7ac9f03239eb9d0016c4",
       price: "$88.02",
       expense: "$8.00",
       transactions: ["63bf7ccef0323901e600155f", "63bf7ccef03239eb9d0016e6"],
     },
     {
-      _id: "63bf7ac9f03239eb9d0016c5",
+      id: "63bf7ac9f03239eb9d0016c5",
       price: "$119.84",
       expense: "$8.95",
       transactions: ["63bf7ccef032395ccf001695", "63bf7ccef03239f920001695"],
     },
     {
-      _id: "63bf7ac9f03239eb9d0016c6",
+      id: "63bf7ac9f03239eb9d0016c6",
       price: "$18.02",
       expense: "$5.48",
       transactions: [
@@ -1549,7 +1549,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239eb9d0016c7",
+      id: "63bf7ac9f03239eb9d0016c7",
       price: "$121.59",
       expense: "$7.27",
       transactions: [
@@ -1560,19 +1560,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239eb9d0016c8",
+      id: "63bf7ac9f03239eb9d0016c8",
       price: "$42.71",
       expense: "$7.26",
       transactions: ["63bf7ccef032396a8e001696", "63bf7ccef032397b4f001608"],
     },
     {
-      _id: "63bf7ac9f03239eb9d0016c9",
+      id: "63bf7ac9f03239eb9d0016c9",
       price: "$106.89",
       expense: "$2.49",
       transactions: ["63bf7ccef03239966c00169d"],
     },
     {
-      _id: "63bf7ac9f03239eb9d0016ca",
+      id: "63bf7ac9f03239eb9d0016ca",
       price: "$162.96",
       expense: "$2.18",
       transactions: [
@@ -1583,7 +1583,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239eb9d0016cb",
+      id: "63bf7ac9f03239eb9d0016cb",
       price: "$102.90",
       expense: "$1.40",
       transactions: [
@@ -1595,7 +1595,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ac9f03239eb9d0016cc",
+      id: "63bf7ac9f03239eb9d0016cc",
       price: "$21.98",
       expense: "$7.86",
       transactions: [
@@ -1608,13 +1608,13 @@ export const kpis = [
   
   export const transactions = [
     {
-      _id: "63bf7ccef03239e002001606",
+      id: "63bf7ccef03239e002001606",
       amount: "$154.37",
       buyer: "Jorrie Tidswell",
       productIds: ["63bf7ac9f03239e002001604"],
     },
     {
-      _id: "63bf7ccef03239e002001607",
+      id: "63bf7ccef03239e002001607",
       amount: "$207.45",
       buyer: "Alfonse Surridge",
       productIds: [
@@ -1625,7 +1625,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239e002001608",
+      id: "63bf7ccef03239e002001608",
       amount: "$23.74",
       buyer: "Flem Domenc",
       productIds: [
@@ -1637,7 +1637,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239e002001609",
+      id: "63bf7ccef03239e002001609",
       amount: "$156.67",
       buyer: "Jordain Gilberthorpe",
       productIds: [
@@ -1648,7 +1648,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239e00200160a",
+      id: "63bf7ccef03239e00200160a",
       amount: "$174.95",
       buyer: "Thelma Christoforou",
       productIds: [
@@ -1659,7 +1659,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239e00200160b",
+      id: "63bf7ccef03239e00200160b",
       amount: "$245.32",
       buyer: "Mattie Iuorio",
       productIds: [
@@ -1670,7 +1670,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239e00200160c",
+      id: "63bf7ccef03239e00200160c",
       amount: "$133.57",
       buyer: "Ancell Valerio",
       productIds: [
@@ -1680,19 +1680,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239e00200160d",
+      id: "63bf7ccef03239e00200160d",
       amount: "$122.49",
       buyer: "Ollie Bolderstone",
       productIds: ["63bf7ac9f03239343e00169f"],
     },
     {
-      _id: "63bf7ccef03239e00200160e",
+      id: "63bf7ccef03239e00200160e",
       amount: "$270.23",
       buyer: "Audrey Zimmermeister",
       productIds: ["63bf7ac9f0323901e6001552"],
     },
     {
-      _id: "63bf7ccef03239e00200160f",
+      id: "63bf7ccef03239e00200160f",
       amount: "$173.38",
       buyer: "Sibby Iacovolo",
       productIds: [
@@ -1704,13 +1704,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239e002001610",
+      id: "63bf7ccef03239e002001610",
       amount: "$283.65",
       buyer: "Perry Scarrisbrick",
       productIds: ["63bf7ac9f032395ccf001690", "63bf7ac9f03239343e00169e"],
     },
     {
-      _id: "63bf7ccef03239e002001611",
+      id: "63bf7ccef03239e002001611",
       amount: "$187.80",
       buyer: "Danika Dearth",
       productIds: [
@@ -1721,25 +1721,25 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239343e0016a1",
+      id: "63bf7ccef03239343e0016a1",
       amount: "$233.90",
       buyer: "Jeddy Juschka",
       productIds: ["63bf7ac9f03239aec9001553", "63bf7ac9f03239aec9001554"],
     },
     {
-      _id: "63bf7ccef03239343e0016a2",
+      id: "63bf7ccef03239343e0016a2",
       amount: "$217.32",
       buyer: "Shelley Ganiford",
       productIds: ["63bf7ac9f032396a8e001691", "63bf7ac9f0323937a500168c"],
     },
     {
-      _id: "63bf7ccef03239343e0016a3",
+      id: "63bf7ccef03239343e0016a3",
       amount: "$272.71",
       buyer: "Inigo Paddeley",
       productIds: ["63bf7ac9f03239cf1b00169a", "63bf7ac9f03239855d001552"],
     },
     {
-      _id: "63bf7ccef03239343e0016a4",
+      id: "63bf7ccef03239343e0016a4",
       amount: "$297.98",
       buyer: "Mallorie Handrek",
       productIds: [
@@ -1750,7 +1750,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239343e0016a5",
+      id: "63bf7ccef03239343e0016a5",
       amount: "$145.37",
       buyer: "Isadora Hollingsby",
       productIds: [
@@ -1760,7 +1760,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239343e0016a6",
+      id: "63bf7ccef03239343e0016a6",
       amount: "$297.67",
       buyer: "Claudetta McNally",
       productIds: [
@@ -1770,13 +1770,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239343e0016a7",
+      id: "63bf7ccef03239343e0016a7",
       amount: "$221.50",
       buyer: "Garek Van Halen",
       productIds: ["63bf7ac9f03239554c002447"],
     },
     {
-      _id: "63bf7ccef03239343e0016a8",
+      id: "63bf7ccef03239343e0016a8",
       amount: "$296.28",
       buyer: "Rozanna Lochead",
       productIds: [
@@ -1786,7 +1786,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239343e0016a9",
+      id: "63bf7ccef03239343e0016a9",
       amount: "$270.66",
       buyer: "Valerie Dooly",
       productIds: [
@@ -1798,13 +1798,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239343e0016aa",
+      id: "63bf7ccef03239343e0016aa",
       amount: "$70.39",
       buyer: "Ronny Dishman",
       productIds: ["63bf7ac9f03239cf1b00169b", "63bf7ac9f0323975d6001692"],
     },
     {
-      _id: "63bf7ccef03239343e0016ab",
+      id: "63bf7ccef03239343e0016ab",
       amount: "$193.31",
       buyer: "Carita Tampion",
       productIds: [
@@ -1814,19 +1814,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239343e0016ac",
+      id: "63bf7ccef03239343e0016ac",
       amount: "$123.95",
       buyer: "Guido Valentine",
       productIds: ["63bf7ac9f03239cf1b00169c"],
     },
     {
-      _id: "63bf7ccef0323901e6001557",
+      id: "63bf7ccef0323901e6001557",
       amount: "$49.37",
       buyer: "Kimberley Glassopp",
       productIds: ["63bf7ac9f032396a8e001692"],
     },
     {
-      _id: "63bf7ccef0323901e6001558",
+      id: "63bf7ccef0323901e6001558",
       amount: "$89.87",
       buyer: "Cloris Vasyushkhin",
       productIds: [
@@ -1838,13 +1838,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323901e6001559",
+      id: "63bf7ccef0323901e6001559",
       amount: "$72.12",
       buyer: "Chevy Richardet",
       productIds: ["63bf7ac9f0323937a5001687"],
     },
     {
-      _id: "63bf7ccef0323901e600155a",
+      id: "63bf7ccef0323901e600155a",
       amount: "$271.82",
       buyer: "Ailis Bum",
       productIds: [
@@ -1854,7 +1854,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323901e600155b",
+      id: "63bf7ccef0323901e600155b",
       amount: "$282.33",
       buyer: "Florance Flook",
       productIds: [
@@ -1865,7 +1865,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323901e600155c",
+      id: "63bf7ccef0323901e600155c",
       amount: "$177.35",
       buyer: "Agna Tresvina",
       productIds: [
@@ -1876,7 +1876,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323901e600155d",
+      id: "63bf7ccef0323901e600155d",
       amount: "$20.59",
       buyer: "Lulita Johanssen",
       productIds: [
@@ -1887,7 +1887,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323901e600155e",
+      id: "63bf7ccef0323901e600155e",
       amount: "$221.00",
       buyer: "Kally Sapshed",
       productIds: [
@@ -1899,7 +1899,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323901e600155f",
+      id: "63bf7ccef0323901e600155f",
       amount: "$158.49",
       buyer: "Curcio Vaines",
       productIds: [
@@ -1911,13 +1911,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323901e6001560",
+      id: "63bf7ccef0323901e6001560",
       amount: "$293.27",
       buyer: "Morgen Benettolo",
       productIds: ["63bf7ac9f03239eb9d0016c7"],
     },
     {
-      _id: "63bf7ccef0323901e6001561",
+      id: "63bf7ccef0323901e6001561",
       amount: "$182.51",
       buyer: "Leanor Game",
       productIds: [
@@ -1928,7 +1928,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323901e6001562",
+      id: "63bf7ccef0323901e6001562",
       amount: "$64.71",
       buyer: "Del Coveny",
       productIds: [
@@ -1939,13 +1939,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394cbd00169f",
+      id: "63bf7ccef032394cbd00169f",
       amount: "$195.92",
       buyer: "Juliette Whiteside",
       productIds: ["63bf7ac9f03239855d001552", "63bf7ac9f032394cbd00169d"],
     },
     {
-      _id: "63bf7ccef032394cbd0016a0",
+      id: "63bf7ccef032394cbd0016a0",
       amount: "$10.22",
       buyer: "Licha Mewis",
       productIds: [
@@ -1955,7 +1955,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394cbd0016a1",
+      id: "63bf7ccef032394cbd0016a1",
       amount: "$176.47",
       buyer: "Freedman Basnett",
       productIds: [
@@ -1966,7 +1966,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394cbd0016a2",
+      id: "63bf7ccef032394cbd0016a2",
       amount: "$283.94",
       buyer: "Dex Martinat",
       productIds: [
@@ -1976,7 +1976,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394cbd0016a3",
+      id: "63bf7ccef032394cbd0016a3",
       amount: "$135.62",
       buyer: "Mal Hessing",
       productIds: [
@@ -1988,7 +1988,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394cbd0016a4",
+      id: "63bf7ccef032394cbd0016a4",
       amount: "$87.83",
       buyer: "Kenyon Lake",
       productIds: [
@@ -1998,7 +1998,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394cbd0016a5",
+      id: "63bf7ccef032394cbd0016a5",
       amount: "$114.41",
       buyer: "Winifield Ahmed",
       productIds: [
@@ -2010,7 +2010,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394cbd0016a6",
+      id: "63bf7ccef032394cbd0016a6",
       amount: "$263.24",
       buyer: "Stace Igglesden",
       productIds: [
@@ -2021,13 +2021,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394cbd0016a7",
+      id: "63bf7ccef032394cbd0016a7",
       amount: "$117.52",
       buyer: "Jordan Skillern",
       productIds: ["63bf7ac9f0323901e6001555"],
     },
     {
-      _id: "63bf7ccef032394cbd0016a8",
+      id: "63bf7ccef032394cbd0016a8",
       amount: "$64.63",
       buyer: "Yorker Sharphurst",
       productIds: [
@@ -2039,7 +2039,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394cbd0016a9",
+      id: "63bf7ccef032394cbd0016a9",
       amount: "$180.19",
       buyer: "Stormy Timoney",
       productIds: [
@@ -2050,7 +2050,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394cbd0016aa",
+      id: "63bf7ccef032394cbd0016aa",
       amount: "$70.70",
       buyer: "Reginauld Brinicombe",
       productIds: [
@@ -2060,7 +2060,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239cf1b00169e",
+      id: "63bf7ccef03239cf1b00169e",
       amount: "$49.60",
       buyer: "Benedikt Gibbe",
       productIds: [
@@ -2070,7 +2070,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239cf1b00169f",
+      id: "63bf7ccef03239cf1b00169f",
       amount: "$64.19",
       buyer: "Elia Kenningham",
       productIds: [
@@ -2080,7 +2080,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239cf1b0016a0",
+      id: "63bf7ccef03239cf1b0016a0",
       amount: "$275.70",
       buyer: "Kenyon Harbour",
       productIds: [
@@ -2090,7 +2090,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239cf1b0016a1",
+      id: "63bf7ccef03239cf1b0016a1",
       amount: "$92.02",
       buyer: "Willabella Bilbrey",
       productIds: [
@@ -2102,19 +2102,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239cf1b0016a2",
+      id: "63bf7ccef03239cf1b0016a2",
       amount: "$164.62",
       buyer: "Sax Caselli",
       productIds: ["63bf7ac9f032396d8900000a", "63bf7ac9f03239cf1b00169c"],
     },
     {
-      _id: "63bf7ccef03239cf1b0016a3",
+      id: "63bf7ccef03239cf1b0016a3",
       amount: "$245.43",
       buyer: "Burr D'Aulby",
       productIds: ["63bf7ac9f03239aec9001552", "63bf7ac9f0323975d6001695"],
     },
     {
-      _id: "63bf7ccef03239cf1b0016a4",
+      id: "63bf7ccef03239cf1b0016a4",
       amount: "$266.98",
       buyer: "Maribeth Quiddinton",
       productIds: [
@@ -2126,13 +2126,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239cf1b0016a5",
+      id: "63bf7ccef03239cf1b0016a5",
       amount: "$121.31",
       buyer: "Doralia Fogg",
       productIds: ["63bf7ac9f03239343e00169d", "63bf7ac9f032394f5f002434"],
     },
     {
-      _id: "63bf7ccef03239cf1b0016a6",
+      id: "63bf7ccef03239cf1b0016a6",
       amount: "$282.87",
       buyer: "Gianna Malkinson",
       productIds: [
@@ -2142,7 +2142,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239cf1b0016a7",
+      id: "63bf7ccef03239cf1b0016a7",
       amount: "$86.12",
       buyer: "Daria Ramble",
       productIds: [
@@ -2154,7 +2154,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239cf1b0016a8",
+      id: "63bf7ccef03239cf1b0016a8",
       amount: "$59.70",
       buyer: "Sile Pettinger",
       productIds: [
@@ -2164,7 +2164,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239cf1b0016a9",
+      id: "63bf7ccef03239cf1b0016a9",
       amount: "$87.28",
       buyer: "Barny Aldrick",
       productIds: [
@@ -2175,7 +2175,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239aec9001557",
+      id: "63bf7ccef03239aec9001557",
       amount: "$10.68",
       buyer: "Marylee Emanueli",
       productIds: [
@@ -2185,7 +2185,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239aec9001558",
+      id: "63bf7ccef03239aec9001558",
       amount: "$116.97",
       buyer: "Skell Rumbold",
       productIds: [
@@ -2197,25 +2197,25 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239aec9001559",
+      id: "63bf7ccef03239aec9001559",
       amount: "$97.54",
       buyer: "Peg Flattman",
       productIds: ["63bf7ac9f03239f92000168a", "63bf7ac9f03239cf1b00169a"],
     },
     {
-      _id: "63bf7ccef03239aec900155a",
+      id: "63bf7ccef03239aec900155a",
       amount: "$237.00",
       buyer: "Guenna Allonby",
       productIds: ["63bf7ac9f032397420001698", "63bf7ac9f03239f920001689"],
     },
     {
-      _id: "63bf7ccef03239aec900155b",
+      id: "63bf7ccef03239aec900155b",
       amount: "$19.63",
       buyer: "Jaquenette Tunnacliffe",
       productIds: ["63bf7ac9f032394cbd001699", "63bf7ac9f032394f5f002438"],
     },
     {
-      _id: "63bf7ccef03239aec900155c",
+      id: "63bf7ccef03239aec900155c",
       amount: "$81.94",
       buyer: "Adelind Bloan",
       productIds: [
@@ -2226,7 +2226,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239aec900155d",
+      id: "63bf7ccef03239aec900155d",
       amount: "$245.16",
       buyer: "Mikaela Murrish",
       productIds: [
@@ -2236,13 +2236,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239aec900155e",
+      id: "63bf7ccef03239aec900155e",
       amount: "$153.99",
       buyer: "Page Allom",
       productIds: ["63bf7ac9f03239eb9d0016c9", "63bf7ac9f03239343e00169e"],
     },
     {
-      _id: "63bf7ccef03239aec900155f",
+      id: "63bf7ccef03239aec900155f",
       amount: "$230.26",
       buyer: "Rafael Haughin",
       productIds: [
@@ -2253,7 +2253,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239aec9001560",
+      id: "63bf7ccef03239aec9001560",
       amount: "$200.80",
       buyer: "Branden Ossenna",
       productIds: [
@@ -2265,19 +2265,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239aec9001561",
+      id: "63bf7ccef03239aec9001561",
       amount: "$170.16",
       buyer: "Mattie Eskrigge",
       productIds: ["63bf7ac9f032395ccf001690"],
     },
     {
-      _id: "63bf7ccef03239aec9001562",
+      id: "63bf7ccef03239aec9001562",
       amount: "$45.08",
       buyer: "Sebastian Bonavia",
       productIds: ["63bf7ac9f032394f5f002436", "63bf7ac9f03239aec9001555"],
     },
     {
-      _id: "63bf7ccef03239554c002449",
+      id: "63bf7ccef03239554c002449",
       amount: "$221.06",
       buyer: "Moyna O'Growgane",
       productIds: [
@@ -2288,7 +2288,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239554c00244a",
+      id: "63bf7ccef03239554c00244a",
       amount: "$117.84",
       buyer: "Silvan Leisman",
       productIds: [
@@ -2299,7 +2299,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239554c00244b",
+      id: "63bf7ccef03239554c00244b",
       amount: "$18.26",
       buyer: "Efren Mabley",
       productIds: [
@@ -2309,7 +2309,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239554c00244c",
+      id: "63bf7ccef03239554c00244c",
       amount: "$108.19",
       buyer: "Si Aime",
       productIds: [
@@ -2319,7 +2319,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239554c00244d",
+      id: "63bf7ccef03239554c00244d",
       amount: "$275.91",
       buyer: "Deedee Gebbe",
       productIds: [
@@ -2330,7 +2330,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239554c00244e",
+      id: "63bf7ccef03239554c00244e",
       amount: "$274.98",
       buyer: "Arlinda Smaile",
       productIds: [
@@ -2341,7 +2341,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239554c00244f",
+      id: "63bf7ccef03239554c00244f",
       amount: "$215.93",
       buyer: "Jareb Bayle",
       productIds: [
@@ -2352,13 +2352,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239554c002450",
+      id: "63bf7ccef03239554c002450",
       amount: "$270.00",
       buyer: "Kermie Goldhill",
       productIds: ["63bf7ac9f032396a8e00168f", "63bf7ac9f0323922d2001690"],
     },
     {
-      _id: "63bf7ccef03239554c002451",
+      id: "63bf7ccef03239554c002451",
       amount: "$183.78",
       buyer: "Birch Morch",
       productIds: [
@@ -2369,7 +2369,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239554c002452",
+      id: "63bf7ccef03239554c002452",
       amount: "$96.80",
       buyer: "Alvis Rowthorne",
       productIds: [
@@ -2380,7 +2380,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239554c002453",
+      id: "63bf7ccef03239554c002453",
       amount: "$91.98",
       buyer: "Roger Gouldthorpe",
       productIds: [
@@ -2392,7 +2392,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239554c002454",
+      id: "63bf7ccef03239554c002454",
       amount: "$224.12",
       buyer: "Patric Pounds",
       productIds: [
@@ -2402,7 +2402,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239742000169c",
+      id: "63bf7ccef03239742000169c",
       amount: "$282.34",
       buyer: "Dillie Gaine",
       productIds: [
@@ -2414,7 +2414,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239742000169d",
+      id: "63bf7ccef03239742000169d",
       amount: "$238.02",
       buyer: "Shelagh Gammidge",
       productIds: [
@@ -2425,13 +2425,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239742000169e",
+      id: "63bf7ccef03239742000169e",
       amount: "$91.34",
       buyer: "Lammond Candy",
       productIds: ["63bf7ac9f03239554c002447", "63bf7ac9f03239966c001697"],
     },
     {
-      _id: "63bf7ccef03239742000169f",
+      id: "63bf7ccef03239742000169f",
       amount: "$25.43",
       buyer: "Regan Warwick",
       productIds: [
@@ -2441,7 +2441,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323974200016a0",
+      id: "63bf7ccef0323974200016a0",
       amount: "$195.00",
       buyer: "Teodoor Conigsby",
       productIds: [
@@ -2451,7 +2451,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323974200016a1",
+      id: "63bf7ccef0323974200016a1",
       amount: "$192.42",
       buyer: "Brooke Musgrave",
       productIds: [
@@ -2462,7 +2462,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323974200016a2",
+      id: "63bf7ccef0323974200016a2",
       amount: "$41.76",
       buyer: "Ado Gerran",
       productIds: [
@@ -2472,7 +2472,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323974200016a3",
+      id: "63bf7ccef0323974200016a3",
       amount: "$96.17",
       buyer: "Hadria Freake",
       productIds: [
@@ -2483,7 +2483,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323974200016a4",
+      id: "63bf7ccef0323974200016a4",
       amount: "$159.67",
       buyer: "Waylon Valentinuzzi",
       productIds: [
@@ -2495,7 +2495,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323974200016a5",
+      id: "63bf7ccef0323974200016a5",
       amount: "$102.35",
       buyer: "Sal Bysshe",
       productIds: [
@@ -2507,19 +2507,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323974200016a6",
+      id: "63bf7ccef0323974200016a6",
       amount: "$125.85",
       buyer: "Florian Brookbank",
       productIds: ["63bf7ac9f0323975d6001693", "63bf7ac9f032396a8e001692"],
     },
     {
-      _id: "63bf7ccef0323974200016a7",
+      id: "63bf7ccef0323974200016a7",
       amount: "$264.64",
       buyer: "Aylmer Klimentyev",
       productIds: ["63bf7ac9f03239e002001604"],
     },
     {
-      _id: "63bf7ccef03239966c001698",
+      id: "63bf7ccef03239966c001698",
       amount: "$274.87",
       buyer: "Sancho Sleaford",
       productIds: [
@@ -2530,7 +2530,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239966c001699",
+      id: "63bf7ccef03239966c001699",
       amount: "$220.00",
       buyer: "Evelin Oneile",
       productIds: [
@@ -2540,19 +2540,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239966c00169a",
+      id: "63bf7ccef03239966c00169a",
       amount: "$277.71",
       buyer: "Larine Couvet",
       productIds: ["63bf7ac9f03239966c001692"],
     },
     {
-      _id: "63bf7ccef03239966c00169b",
+      id: "63bf7ccef03239966c00169b",
       amount: "$134.74",
       buyer: "Leonanie Juliff",
       productIds: ["63bf7ac9f03239aec9001553"],
     },
     {
-      _id: "63bf7ccef03239966c00169c",
+      id: "63bf7ccef03239966c00169c",
       amount: "$266.52",
       buyer: "Aubine Giacomucci",
       productIds: [
@@ -2563,7 +2563,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239966c00169d",
+      id: "63bf7ccef03239966c00169d",
       amount: "$142.48",
       buyer: "Obed Garm",
       productIds: [
@@ -2574,7 +2574,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239966c00169e",
+      id: "63bf7ccef03239966c00169e",
       amount: "$59.95",
       buyer: "Arie Yardy",
       productIds: [
@@ -2586,7 +2586,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239966c00169f",
+      id: "63bf7ccef03239966c00169f",
       amount: "$282.21",
       buyer: "Peter Gallager",
       productIds: [
@@ -2597,7 +2597,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239966c0016a0",
+      id: "63bf7ccef03239966c0016a0",
       amount: "$59.31",
       buyer: "Freemon Hargey",
       productIds: [
@@ -2609,7 +2609,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239966c0016a1",
+      id: "63bf7ccef03239966c0016a1",
       amount: "$202.58",
       buyer: "Libby Dannett",
       productIds: [
@@ -2619,25 +2619,25 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239966c0016a2",
+      id: "63bf7ccef03239966c0016a2",
       amount: "$106.57",
       buyer: "Claudetta Kinnett",
       productIds: ["63bf7ac9f0323975d6001697"],
     },
     {
-      _id: "63bf7ccef03239966c0016a3",
+      id: "63bf7ccef03239966c0016a3",
       amount: "$292.34",
       buyer: "Taryn Shankland",
       productIds: ["63bf7ac9f03239742000169b", "63bf7ac9f032397b4f0015fc"],
     },
     {
-      _id: "63bf7ccef0323975d6001698",
+      id: "63bf7ccef0323975d6001698",
       amount: "$178.53",
       buyer: "Roxanne Impson",
       productIds: ["63bf7ac9f03239cf1b00169b", "63bf7ac9f032394cbd001699"],
     },
     {
-      _id: "63bf7ccef0323975d6001699",
+      id: "63bf7ccef0323975d6001699",
       amount: "$262.23",
       buyer: "Vyky Rumbelow",
       productIds: [
@@ -2649,13 +2649,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323975d600169a",
+      id: "63bf7ccef0323975d600169a",
       amount: "$91.65",
       buyer: "Ethelred Layne",
       productIds: ["63bf7ac9f032394cbd00169d", "63bf7ac9f032394f5f002436"],
     },
     {
-      _id: "63bf7ccef0323975d600169b",
+      id: "63bf7ccef0323975d600169b",
       amount: "$127.72",
       buyer: "Sigismund Coombes",
       productIds: [
@@ -2665,19 +2665,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323975d600169c",
+      id: "63bf7ccef0323975d600169c",
       amount: "$32.05",
       buyer: "Lacey Clemanceau",
       productIds: ["63bf7ac9f03239855d001556", "63bf7ac9f032397b4f001600"],
     },
     {
-      _id: "63bf7ccef0323975d600169d",
+      id: "63bf7ccef0323975d600169d",
       amount: "$130.53",
       buyer: "Monroe Matthewson",
       productIds: ["63bf7ac9f0323922d2001690", "63bf7ac9f0323937a5001687"],
     },
     {
-      _id: "63bf7ccef0323975d600169e",
+      id: "63bf7ccef0323975d600169e",
       amount: "$82.41",
       buyer: "Martita Kinze",
       productIds: [
@@ -2687,25 +2687,25 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323975d600169f",
+      id: "63bf7ccef0323975d600169f",
       amount: "$242.59",
       buyer: "Suzette Tonkes",
       productIds: ["63bf7ac9f03239aec9001551"],
     },
     {
-      _id: "63bf7ccef0323975d60016a0",
+      id: "63bf7ccef0323975d60016a0",
       amount: "$282.57",
       buyer: "Clare Torns",
       productIds: ["63bf7ac9f03239eb9d0016c6"],
     },
     {
-      _id: "63bf7ccef0323975d60016a1",
+      id: "63bf7ccef0323975d60016a1",
       amount: "$193.44",
       buyer: "Silvia Harrap",
       productIds: ["63bf7ac9f03239cf1b00169a", "63bf7ac9f03239e002001602"],
     },
     {
-      _id: "63bf7ccef0323975d60016a2",
+      id: "63bf7ccef0323975d60016a2",
       amount: "$41.09",
       buyer: "Megen Manicomb",
       productIds: [
@@ -2717,7 +2717,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323975d60016a3",
+      id: "63bf7ccef0323975d60016a3",
       amount: "$167.97",
       buyer: "Lacee Dyche",
       productIds: [
@@ -2727,25 +2727,25 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396a8e001694",
+      id: "63bf7ccef032396a8e001694",
       amount: "$89.43",
       buyer: "Ravi Morrant",
       productIds: ["63bf7ac9f032397b4f0015fb"],
     },
     {
-      _id: "63bf7ccef032396a8e001695",
+      id: "63bf7ccef032396a8e001695",
       amount: "$185.00",
       buyer: "Ida Rolles",
       productIds: ["63bf7ac9f032397b4f001600", "63bf7ac9f032397420001698"],
     },
     {
-      _id: "63bf7ccef032396a8e001696",
+      id: "63bf7ccef032396a8e001696",
       amount: "$58.82",
       buyer: "Melicent Tembridge",
       productIds: ["63bf7ac9f0323937a500168a"],
     },
     {
-      _id: "63bf7ccef032396a8e001697",
+      id: "63bf7ccef032396a8e001697",
       amount: "$57.02",
       buyer: "Gerald Egell",
       productIds: [
@@ -2756,7 +2756,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396a8e001698",
+      id: "63bf7ccef032396a8e001698",
       amount: "$78.59",
       buyer: "Lorelei Siebart",
       productIds: [
@@ -2768,7 +2768,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396a8e001699",
+      id: "63bf7ccef032396a8e001699",
       amount: "$297.89",
       buyer: "Cullie Lampens",
       productIds: [
@@ -2780,7 +2780,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396a8e00169a",
+      id: "63bf7ccef032396a8e00169a",
       amount: "$242.06",
       buyer: "Cora Pasque",
       productIds: [
@@ -2791,7 +2791,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396a8e00169b",
+      id: "63bf7ccef032396a8e00169b",
       amount: "$26.01",
       buyer: "Lou Singyard",
       productIds: [
@@ -2801,7 +2801,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396a8e00169c",
+      id: "63bf7ccef032396a8e00169c",
       amount: "$123.88",
       buyer: "Patsy Cargill",
       productIds: [
@@ -2812,7 +2812,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396a8e00169d",
+      id: "63bf7ccef032396a8e00169d",
       amount: "$221.16",
       buyer: "Naoma Abrams",
       productIds: [
@@ -2822,7 +2822,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396a8e00169e",
+      id: "63bf7ccef032396a8e00169e",
       amount: "$55.67",
       buyer: "Susann Dri",
       productIds: [
@@ -2832,7 +2832,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396a8e00169f",
+      id: "63bf7ccef032396a8e00169f",
       amount: "$79.87",
       buyer: "Billye Durward",
       productIds: [
@@ -2844,7 +2844,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032395ccf001694",
+      id: "63bf7ccef032395ccf001694",
       amount: "$216.01",
       buyer: "Thadeus Meredith",
       productIds: [
@@ -2855,13 +2855,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032395ccf001695",
+      id: "63bf7ccef032395ccf001695",
       amount: "$69.63",
       buyer: "Isiahi MacMorland",
       productIds: ["63bf7ac9f03239f92000168d", "63bf7ac9f032396a8e001693"],
     },
     {
-      _id: "63bf7ccef032395ccf001696",
+      id: "63bf7ccef032395ccf001696",
       amount: "$204.00",
       buyer: "Jaquelin Thomson",
       productIds: [
@@ -2873,7 +2873,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032395ccf001697",
+      id: "63bf7ccef032395ccf001697",
       amount: "$283.84",
       buyer: "Page Quiney",
       productIds: [
@@ -2883,7 +2883,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032395ccf001698",
+      id: "63bf7ccef032395ccf001698",
       amount: "$32.76",
       buyer: "Stephana Bulcroft",
       productIds: [
@@ -2895,7 +2895,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032395ccf001699",
+      id: "63bf7ccef032395ccf001699",
       amount: "$34.52",
       buyer: "Desdemona Zukierman",
       productIds: [
@@ -2907,7 +2907,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032395ccf00169a",
+      id: "63bf7ccef032395ccf00169a",
       amount: "$248.19",
       buyer: "Fredericka Ayliffe",
       productIds: [
@@ -2918,7 +2918,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032395ccf00169b",
+      id: "63bf7ccef032395ccf00169b",
       amount: "$115.61",
       buyer: "Rouvin Breit",
       productIds: [
@@ -2929,7 +2929,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032395ccf00169c",
+      id: "63bf7ccef032395ccf00169c",
       amount: "$158.54",
       buyer: "Marlyn Packington",
       productIds: [
@@ -2940,25 +2940,25 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032395ccf00169d",
+      id: "63bf7ccef032395ccf00169d",
       amount: "$189.62",
       buyer: "Ric Heasly",
       productIds: ["63bf7ac9f032395ccf001692", "63bf7ac9f03239eb9d0016cb"],
     },
     {
-      _id: "63bf7ccef032395ccf00169e",
+      id: "63bf7ccef032395ccf00169e",
       amount: "$215.68",
       buyer: "Rhoda Furst",
       productIds: ["63bf7ac9f03239aec9001551"],
     },
     {
-      _id: "63bf7ccef032395ccf00169f",
+      id: "63bf7ccef032395ccf00169f",
       amount: "$264.99",
       buyer: "Khalil Climpson",
       productIds: ["63bf7ac9f0323922d2001690"],
     },
     {
-      _id: "63bf7ccef032397b4f001601",
+      id: "63bf7ccef032397b4f001601",
       amount: "$218.65",
       buyer: "Padgett Brimelow",
       productIds: [
@@ -2970,7 +2970,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032397b4f001602",
+      id: "63bf7ccef032397b4f001602",
       amount: "$267.79",
       buyer: "Nariko Grelka",
       productIds: [
@@ -2980,7 +2980,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032397b4f001603",
+      id: "63bf7ccef032397b4f001603",
       amount: "$228.64",
       buyer: "Prescott Bax",
       productIds: [
@@ -2990,7 +2990,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032397b4f001604",
+      id: "63bf7ccef032397b4f001604",
       amount: "$141.93",
       buyer: "Olva Curtois",
       productIds: [
@@ -3002,13 +3002,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032397b4f001605",
+      id: "63bf7ccef032397b4f001605",
       amount: "$87.23",
       buyer: "Diann Firby",
       productIds: ["63bf7ac9f03239554c002444"],
     },
     {
-      _id: "63bf7ccef032397b4f001606",
+      id: "63bf7ccef032397b4f001606",
       amount: "$157.51",
       buyer: "Poppy Rankcom",
       productIds: [
@@ -3019,19 +3019,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032397b4f001607",
+      id: "63bf7ccef032397b4f001607",
       amount: "$234.45",
       buyer: "Ardath Bulgen",
       productIds: ["63bf7ac9f0323937a500168b"],
     },
     {
-      _id: "63bf7ccef032397b4f001608",
+      id: "63bf7ccef032397b4f001608",
       amount: "$92.16",
       buyer: "Jacinta Swede",
       productIds: ["63bf7ac9f0323975d6001695"],
     },
     {
-      _id: "63bf7ccef032397b4f001609",
+      id: "63bf7ccef032397b4f001609",
       amount: "$10.17",
       buyer: "Obadias Matyashev",
       productIds: [
@@ -3042,7 +3042,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032397b4f00160a",
+      id: "63bf7ccef032397b4f00160a",
       amount: "$65.15",
       buyer: "Hill McElwee",
       productIds: [
@@ -3053,7 +3053,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032397b4f00160b",
+      id: "63bf7ccef032397b4f00160b",
       amount: "$79.19",
       buyer: "Malachi Extall",
       productIds: [
@@ -3063,7 +3063,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032397b4f00160c",
+      id: "63bf7ccef032397b4f00160c",
       amount: "$127.08",
       buyer: "Neil O'Reilly",
       productIds: [
@@ -3075,7 +3075,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323922d2001694",
+      id: "63bf7ccef0323922d2001694",
       amount: "$162.80",
       buyer: "Juan Mynett",
       productIds: [
@@ -3087,7 +3087,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323922d2001695",
+      id: "63bf7ccef0323922d2001695",
       amount: "$198.54",
       buyer: "Bambi Pirdue",
       productIds: [
@@ -3098,13 +3098,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323922d2001696",
+      id: "63bf7ccef0323922d2001696",
       amount: "$198.34",
       buyer: "Jefferey Karus",
       productIds: ["63bf7ac9f032394cbd00169e", "63bf7ac9f0323922d2001691"],
     },
     {
-      _id: "63bf7ccef0323922d2001697",
+      id: "63bf7ccef0323922d2001697",
       amount: "$249.25",
       buyer: "Philbert Punshon",
       productIds: [
@@ -3116,7 +3116,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323922d2001698",
+      id: "63bf7ccef0323922d2001698",
       amount: "$93.07",
       buyer: "Dinnie Belz",
       productIds: [
@@ -3126,7 +3126,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323922d2001699",
+      id: "63bf7ccef0323922d2001699",
       amount: "$126.85",
       buyer: "Gilbertine Brunner",
       productIds: [
@@ -3138,13 +3138,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323922d200169a",
+      id: "63bf7ccef0323922d200169a",
       amount: "$103.11",
       buyer: "Jaynell Filshin",
       productIds: ["63bf7ac9f032397420001697"],
     },
     {
-      _id: "63bf7ccef0323922d200169b",
+      id: "63bf7ccef0323922d200169b",
       amount: "$141.80",
       buyer: "Doro Sheerman",
       productIds: [
@@ -3155,7 +3155,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323922d200169c",
+      id: "63bf7ccef0323922d200169c",
       amount: "$11.40",
       buyer: "Elisa Pechet",
       productIds: [
@@ -3165,7 +3165,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323922d200169d",
+      id: "63bf7ccef0323922d200169d",
       amount: "$53.46",
       buyer: "Shirlene Keyzman",
       productIds: [
@@ -3176,13 +3176,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323922d200169e",
+      id: "63bf7ccef0323922d200169e",
       amount: "$147.22",
       buyer: "Osgood Bentick",
       productIds: ["63bf7ac9f032394f5f002433"],
     },
     {
-      _id: "63bf7ccef0323922d200169f",
+      id: "63bf7ccef0323922d200169f",
       amount: "$87.29",
       buyer: "Cosette Topling",
       productIds: [
@@ -3193,13 +3193,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396d8900000d",
+      id: "63bf7ccef032396d8900000d",
       amount: "$37.57",
       buyer: "Clevie Claige",
       productIds: ["63bf7ac9f0323901e6001556"],
     },
     {
-      _id: "63bf7ccef032396d8900000e",
+      id: "63bf7ccef032396d8900000e",
       amount: "$21.95",
       buyer: "Lenard Sheach",
       productIds: [
@@ -3211,7 +3211,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396d8900000f",
+      id: "63bf7ccef032396d8900000f",
       amount: "$268.02",
       buyer: "Noe Crowth",
       productIds: [
@@ -3222,13 +3222,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396d89000010",
+      id: "63bf7ccef032396d89000010",
       amount: "$221.94",
       buyer: "Benoite Crocken",
       productIds: ["63bf7ac9f0323975d6001693", "63bf7ac9f032394f5f002435"],
     },
     {
-      _id: "63bf7ccef032396d89000011",
+      id: "63bf7ccef032396d89000011",
       amount: "$173.77",
       buyer: "Blondy Gyer",
       productIds: [
@@ -3238,7 +3238,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396d89000012",
+      id: "63bf7ccef032396d89000012",
       amount: "$183.77",
       buyer: "Yale Myott",
       productIds: [
@@ -3248,7 +3248,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396d89000013",
+      id: "63bf7ccef032396d89000013",
       amount: "$195.54",
       buyer: "Ebba Durdy",
       productIds: [
@@ -3259,7 +3259,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396d89000014",
+      id: "63bf7ccef032396d89000014",
       amount: "$208.47",
       buyer: "Rockwell Fiddler",
       productIds: [
@@ -3271,19 +3271,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396d89000015",
+      id: "63bf7ccef032396d89000015",
       amount: "$133.89",
       buyer: "Ashlen Steely",
       productIds: ["63bf7ac9f03239aec9001554", "63bf7ac9f03239eb9d0016c9"],
     },
     {
-      _id: "63bf7ccef032396d89000016",
+      id: "63bf7ccef032396d89000016",
       amount: "$129.79",
       buyer: "Pammy Rubie",
       productIds: ["63bf7ac9f03239855d001553"],
     },
     {
-      _id: "63bf7ccef032396d89000017",
+      id: "63bf7ccef032396d89000017",
       amount: "$141.60",
       buyer: "Brittne Causnett",
       productIds: [
@@ -3293,7 +3293,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032396d89000018",
+      id: "63bf7ccef032396d89000018",
       amount: "$111.86",
       buyer: "Allina Peele",
       productIds: [
@@ -3305,7 +3305,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239f92000168f",
+      id: "63bf7ccef03239f92000168f",
       amount: "$263.95",
       buyer: "Correy Addionisio",
       productIds: [
@@ -3315,13 +3315,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239f920001690",
+      id: "63bf7ccef03239f920001690",
       amount: "$184.66",
       buyer: "Babbette Fudge",
       productIds: ["63bf7ac9f032396a8e00168e", "63bf7ac9f03239eb9d0016cb"],
     },
     {
-      _id: "63bf7ccef03239f920001691",
+      id: "63bf7ccef03239f920001691",
       amount: "$212.43",
       buyer: "Goldarina Wingrove",
       productIds: [
@@ -3331,7 +3331,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239f920001692",
+      id: "63bf7ccef03239f920001692",
       amount: "$266.52",
       buyer: "Sibel Eakly",
       productIds: [
@@ -3341,7 +3341,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239f920001693",
+      id: "63bf7ccef03239f920001693",
       amount: "$252.29",
       buyer: "Iain Stuffins",
       productIds: [
@@ -3353,7 +3353,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239f920001694",
+      id: "63bf7ccef03239f920001694",
       amount: "$59.82",
       buyer: "Merrill Cubley",
       productIds: [
@@ -3364,7 +3364,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239f920001695",
+      id: "63bf7ccef03239f920001695",
       amount: "$253.84",
       buyer: "Nikki Overlow",
       productIds: [
@@ -3374,7 +3374,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239f920001696",
+      id: "63bf7ccef03239f920001696",
       amount: "$150.73",
       buyer: "Giffard Slesser",
       productIds: [
@@ -3384,7 +3384,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239f920001697",
+      id: "63bf7ccef03239f920001697",
       amount: "$65.72",
       buyer: "Gerik Wherton",
       productIds: [
@@ -3394,13 +3394,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239f920001698",
+      id: "63bf7ccef03239f920001698",
       amount: "$194.44",
       buyer: "Hebert Dorrington",
       productIds: ["63bf7ac9f03239cf1b00169c"],
     },
     {
-      _id: "63bf7ccef03239f920001699",
+      id: "63bf7ccef03239f920001699",
       amount: "$248.57",
       buyer: "Mable Stirrup",
       productIds: [
@@ -3412,7 +3412,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239f92000169a",
+      id: "63bf7ccef03239f92000169a",
       amount: "$276.83",
       buyer: "Dorothy Cristofolini",
       productIds: [
@@ -3422,13 +3422,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394f5f002439",
+      id: "63bf7ccef032394f5f002439",
       amount: "$175.44",
       buyer: "Reuben Davidzon",
       productIds: ["63bf7ac9f03239e002001600"],
     },
     {
-      _id: "63bf7ccef032394f5f00243a",
+      id: "63bf7ccef032394f5f00243a",
       amount: "$141.20",
       buyer: "Mitchell Scriven",
       productIds: [
@@ -3440,7 +3440,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394f5f00243b",
+      id: "63bf7ccef032394f5f00243b",
       amount: "$137.00",
       buyer: "Jozef McFfaden",
       productIds: [
@@ -3451,37 +3451,37 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394f5f00243c",
+      id: "63bf7ccef032394f5f00243c",
       amount: "$30.46",
       buyer: "Sarajane Giovannilli",
       productIds: ["63bf7ac9f03239343e00169c"],
     },
     {
-      _id: "63bf7ccef032394f5f00243d",
+      id: "63bf7ccef032394f5f00243d",
       amount: "$163.77",
       buyer: "Malchy Hanbury-Brown",
       productIds: ["63bf7ac9f03239966c001696"],
     },
     {
-      _id: "63bf7ccef032394f5f00243e",
+      id: "63bf7ccef032394f5f00243e",
       amount: "$272.04",
       buyer: "Nathanil Aidler",
       productIds: ["63bf7ac9f032397b4f0015fe", "63bf7ac9f032394cbd00169c"],
     },
     {
-      _id: "63bf7ccef032394f5f00243f",
+      id: "63bf7ccef032394f5f00243f",
       amount: "$270.05",
       buyer: "Petronille Ganter",
       productIds: ["63bf7ac9f03239cf1b00169b"],
     },
     {
-      _id: "63bf7ccef032394f5f002440",
+      id: "63bf7ccef032394f5f002440",
       amount: "$183.86",
       buyer: "Nanni Bettles",
       productIds: ["63bf7ac9f0323975d6001695", "63bf7ac9f032395ccf001690"],
     },
     {
-      _id: "63bf7ccef032394f5f002441",
+      id: "63bf7ccef032394f5f002441",
       amount: "$13.39",
       buyer: "Marcello Connechy",
       productIds: [
@@ -3493,7 +3493,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394f5f002442",
+      id: "63bf7ccef032394f5f002442",
       amount: "$158.95",
       buyer: "Reggis Ketton",
       productIds: [
@@ -3504,19 +3504,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef032394f5f002443",
+      id: "63bf7ccef032394f5f002443",
       amount: "$103.60",
       buyer: "Willyt Cato",
       productIds: ["63bf7ac9f0323922d2001693"],
     },
     {
-      _id: "63bf7ccef032394f5f002444",
+      id: "63bf7ccef032394f5f002444",
       amount: "$154.99",
       buyer: "Ira Martinello",
       productIds: ["63bf7ac9f032395ccf00168e", "63bf7ac9f0323901e6001551"],
     },
     {
-      _id: "63bf7ccef0323937a500168d",
+      id: "63bf7ccef0323937a500168d",
       amount: "$197.90",
       buyer: "Udall Alessandretti",
       productIds: [
@@ -3526,7 +3526,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323937a500168e",
+      id: "63bf7ccef0323937a500168e",
       amount: "$28.26",
       buyer: "Erminia Giraudo",
       productIds: [
@@ -3537,7 +3537,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323937a500168f",
+      id: "63bf7ccef0323937a500168f",
       amount: "$282.44",
       buyer: "Glenda Stenners",
       productIds: [
@@ -3547,7 +3547,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323937a5001690",
+      id: "63bf7ccef0323937a5001690",
       amount: "$233.02",
       buyer: "Judon Tremathick",
       productIds: [
@@ -3558,37 +3558,37 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323937a5001691",
+      id: "63bf7ccef0323937a5001691",
       amount: "$244.78",
       buyer: "Lynnet Faichney",
       productIds: ["63bf7ac9f032394cbd00169c", "63bf7ac9f032395ccf001692"],
     },
     {
-      _id: "63bf7ccef0323937a5001692",
+      id: "63bf7ccef0323937a5001692",
       amount: "$169.19",
       buyer: "Anet Le Monnier",
       productIds: ["63bf7ac9f032396a8e001693"],
     },
     {
-      _id: "63bf7ccef0323937a5001693",
+      id: "63bf7ccef0323937a5001693",
       amount: "$202.97",
       buyer: "Catriona Ashton",
       productIds: ["63bf7ac9f0323937a5001689", "63bf7ac9f0323937a500168a"],
     },
     {
-      _id: "63bf7ccef0323937a5001694",
+      id: "63bf7ccef0323937a5001694",
       amount: "$282.67",
       buyer: "Tristam Clemot",
       productIds: ["63bf7ac9f03239aec9001552"],
     },
     {
-      _id: "63bf7ccef0323937a5001695",
+      id: "63bf7ccef0323937a5001695",
       amount: "$282.30",
       buyer: "Millard Sallan",
       productIds: ["63bf7ac9f032396a8e001690", "63bf7ac9f03239aec9001555"],
     },
     {
-      _id: "63bf7ccef0323937a5001696",
+      id: "63bf7ccef0323937a5001696",
       amount: "$32.78",
       buyer: "Nikolos Baddoe",
       productIds: [
@@ -3598,7 +3598,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323937a5001697",
+      id: "63bf7ccef0323937a5001697",
       amount: "$74.56",
       buyer: "Joannes Tinn",
       productIds: [
@@ -3610,7 +3610,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef0323937a5001698",
+      id: "63bf7ccef0323937a5001698",
       amount: "$54.01",
       buyer: "Mira Beese",
       productIds: [
@@ -3622,19 +3622,19 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239855d001557",
+      id: "63bf7ccef03239855d001557",
       amount: "$216.98",
       buyer: "Tonye Mauditt",
       productIds: ["63bf7ac9f03239966c001693", "63bf7ac9f03239eb9d0016cb"],
     },
     {
-      _id: "63bf7ccef03239855d001558",
+      id: "63bf7ccef03239855d001558",
       amount: "$233.79",
       buyer: "Margo Paull",
       productIds: ["63bf7ac9f032396a8e001693"],
     },
     {
-      _id: "63bf7ccef03239855d001559",
+      id: "63bf7ccef03239855d001559",
       amount: "$265.54",
       buyer: "Ashly Rubee",
       productIds: [
@@ -3645,7 +3645,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239855d00155a",
+      id: "63bf7ccef03239855d00155a",
       amount: "$244.04",
       buyer: "Cymbre Cronk",
       productIds: [
@@ -3656,7 +3656,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239855d00155b",
+      id: "63bf7ccef03239855d00155b",
       amount: "$27.78",
       buyer: "Weidar Durand",
       productIds: [
@@ -3667,7 +3667,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239855d00155c",
+      id: "63bf7ccef03239855d00155c",
       amount: "$216.52",
       buyer: "Alonzo Adds",
       productIds: [
@@ -3678,7 +3678,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239855d00155d",
+      id: "63bf7ccef03239855d00155d",
       amount: "$226.10",
       buyer: "Regina Normanvill",
       productIds: [
@@ -3688,7 +3688,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239855d00155e",
+      id: "63bf7ccef03239855d00155e",
       amount: "$293.98",
       buyer: "Danie Dybell",
       productIds: [
@@ -3699,7 +3699,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239855d00155f",
+      id: "63bf7ccef03239855d00155f",
       amount: "$191.88",
       buyer: "Reg Dron",
       productIds: [
@@ -3711,7 +3711,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239855d001560",
+      id: "63bf7ccef03239855d001560",
       amount: "$242.26",
       buyer: "Carmine Catonnet",
       productIds: [
@@ -3723,7 +3723,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239855d001561",
+      id: "63bf7ccef03239855d001561",
       amount: "$207.93",
       buyer: "Valaree Inchan",
       productIds: [
@@ -3734,25 +3734,25 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239855d001562",
+      id: "63bf7ccef03239855d001562",
       amount: "$76.13",
       buyer: "Franklin Markie",
       productIds: ["63bf7ac9f03239855d001554", "63bf7ac9f032396a8e001691"],
     },
     {
-      _id: "63bf7ccef03239eb9d0016cd",
+      id: "63bf7ccef03239eb9d0016cd",
       amount: "$194.94",
       buyer: "Sigmund Ramiro",
       productIds: ["63bf7ac9f0323901e6001553"],
     },
     {
-      _id: "63bf7ccef03239eb9d0016ce",
+      id: "63bf7ccef03239eb9d0016ce",
       amount: "$32.76",
       buyer: "Glen Proven",
       productIds: ["63bf7ac9f03239855d001556", "63bf7ac9f03239eb9d0016c6"],
     },
     {
-      _id: "63bf7ccef03239eb9d0016cf",
+      id: "63bf7ccef03239eb9d0016cf",
       amount: "$24.96",
       buyer: "Georgi Alfonso",
       productIds: [
@@ -3762,7 +3762,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016d0",
+      id: "63bf7ccef03239eb9d0016d0",
       amount: "$229.93",
       buyer: "Karoly Tilio",
       productIds: [
@@ -3773,7 +3773,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016d1",
+      id: "63bf7ccef03239eb9d0016d1",
       amount: "$83.15",
       buyer: "Adrianne Simmance",
       productIds: [
@@ -3783,7 +3783,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016d2",
+      id: "63bf7ccef03239eb9d0016d2",
       amount: "$161.43",
       buyer: "Frederich Hush",
       productIds: [
@@ -3795,25 +3795,25 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016d3",
+      id: "63bf7ccef03239eb9d0016d3",
       amount: "$266.01",
       buyer: "Mandie Keely",
       productIds: ["63bf7ac9f032396d8900000a"],
     },
     {
-      _id: "63bf7ccef03239eb9d0016d4",
+      id: "63bf7ccef03239eb9d0016d4",
       amount: "$276.18",
       buyer: "Benedicta Khomich",
       productIds: ["63bf7ac9f032394f5f002433", "63bf7ac9f03239966c001692"],
     },
     {
-      _id: "63bf7ccef03239eb9d0016d5",
+      id: "63bf7ccef03239eb9d0016d5",
       amount: "$261.62",
       buyer: "Lurette Searles",
       productIds: ["63bf7ac9f03239eb9d0016c3"],
     },
     {
-      _id: "63bf7ccef03239eb9d0016d6",
+      id: "63bf7ccef03239eb9d0016d6",
       amount: "$32.46",
       buyer: "Rube Makin",
       productIds: [
@@ -3824,7 +3824,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016d7",
+      id: "63bf7ccef03239eb9d0016d7",
       amount: "$83.42",
       buyer: "Shanan McKevin",
       productIds: [
@@ -3834,7 +3834,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016d8",
+      id: "63bf7ccef03239eb9d0016d8",
       amount: "$18.18",
       buyer: "Dara Benck",
       productIds: [
@@ -3845,7 +3845,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016d9",
+      id: "63bf7ccef03239eb9d0016d9",
       amount: "$106.37",
       buyer: "Emeline Stranger",
       productIds: [
@@ -3856,7 +3856,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016da",
+      id: "63bf7ccef03239eb9d0016da",
       amount: "$20.08",
       buyer: "Goddart Atton",
       productIds: [
@@ -3867,13 +3867,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016db",
+      id: "63bf7ccef03239eb9d0016db",
       amount: "$57.45",
       buyer: "Ellwood Cicculini",
       productIds: ["63bf7ac9f032395ccf00168f", "63bf7ac9f03239966c001697"],
     },
     {
-      _id: "63bf7ccef03239eb9d0016dc",
+      id: "63bf7ccef03239eb9d0016dc",
       amount: "$192.17",
       buyer: "Moe Tebboth",
       productIds: [
@@ -3883,7 +3883,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016dd",
+      id: "63bf7ccef03239eb9d0016dd",
       amount: "$174.53",
       buyer: "Adena Sepey",
       productIds: [
@@ -3895,7 +3895,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016de",
+      id: "63bf7ccef03239eb9d0016de",
       amount: "$107.89",
       buyer: "Jess Smails",
       productIds: [
@@ -3905,7 +3905,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016df",
+      id: "63bf7ccef03239eb9d0016df",
       amount: "$110.12",
       buyer: "Ezri Husset",
       productIds: [
@@ -3917,13 +3917,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016e0",
+      id: "63bf7ccef03239eb9d0016e0",
       amount: "$233.24",
       buyer: "Dru Spittles",
       productIds: ["63bf7ac9f03239855d001552"],
     },
     {
-      _id: "63bf7ccef03239eb9d0016e1",
+      id: "63bf7ccef03239eb9d0016e1",
       amount: "$232.25",
       buyer: "Leah Tuttiett",
       productIds: [
@@ -3933,7 +3933,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016e2",
+      id: "63bf7ccef03239eb9d0016e2",
       amount: "$254.42",
       buyer: "Roldan Jacquemy",
       productIds: [
@@ -3945,7 +3945,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016e3",
+      id: "63bf7ccef03239eb9d0016e3",
       amount: "$232.11",
       buyer: "Ned Muddimer",
       productIds: [
@@ -3956,7 +3956,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016e4",
+      id: "63bf7ccef03239eb9d0016e4",
       amount: "$73.14",
       buyer: "Christos Sirey",
       productIds: [
@@ -3968,7 +3968,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016e5",
+      id: "63bf7ccef03239eb9d0016e5",
       amount: "$175.29",
       buyer: "Sharai Jeffcoat",
       productIds: [
@@ -3978,13 +3978,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016e6",
+      id: "63bf7ccef03239eb9d0016e6",
       amount: "$35.89",
       buyer: "Jeramie Mc Gaughey",
       productIds: ["63bf7ac9f0323922d2001691"],
     },
     {
-      _id: "63bf7ccef03239eb9d0016e7",
+      id: "63bf7ccef03239eb9d0016e7",
       amount: "$88.26",
       buyer: "Der Yuille",
       productIds: [
@@ -3994,13 +3994,13 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016e8",
+      id: "63bf7ccef03239eb9d0016e8",
       amount: "$50.84",
       buyer: "Zelig Punton",
       productIds: ["63bf7ac9f03239f92000168a", "63bf7ac9f032397b4f0015fe"],
     },
     {
-      _id: "63bf7ccef03239eb9d0016e9",
+      id: "63bf7ccef03239eb9d0016e9",
       amount: "$88.76",
       buyer: "Randolf Cheavin",
       productIds: [
@@ -4010,7 +4010,7 @@ export const kpis = [
       ],
     },
     {
-      _id: "63bf7ccef03239eb9d0016ea",
+      id: "63bf7ccef03239eb9d0016ea",
       amount: "$254.58",
       buyer: "Loy Randerson",
       productIds: ["63bf7ac9f032394f5f002437"],

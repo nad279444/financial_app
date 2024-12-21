@@ -7,10 +7,16 @@ import { BrowserRouter,Routes,Route } from "react-router-dom"
 import Navbar from "@/scenes/navbar";
 import Dashboard from "@/scenes/dashboard";
 import Predictions from "@/scenes/predictions";
+import {loadDataIntoIndexedDB} from '../db/load_db'
+
 
 
 function App() {
   const theme = useMemo(() => createTheme(themeSettings),[])
+
+  loadDataIntoIndexedDB().catch((error) =>
+    console.error("Error loading data into IndexedDB:", error)
+  );
   return (
     <div className="app">
     <BrowserRouter>

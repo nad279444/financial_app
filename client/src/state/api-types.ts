@@ -22,7 +22,6 @@ export interface Month {
   
   export interface GetKpisResponse {
     id: string;
-    _id: string;
     __v: number;
     totalProfit: number;
     totalRevenue: number;
@@ -36,7 +35,6 @@ export interface Month {
 
   export interface GetProductsResponse {
     id: string;
-    _id: string;
     __v: number;
     price: number;
     expense: number;
@@ -47,7 +45,7 @@ export interface Month {
 
   export interface GetTransactionsResponse {
     id: string;
-    _id: string;
+    
     __v: number;
     buyer: string;
     amount: number;
