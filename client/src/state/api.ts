@@ -42,3 +42,6 @@ export const api = createApi({
 });
 
 export const { useGetKpisQuery, useGetProductsQuery, useGetTransactionsQuery } = api;
+console.log(useGetKpisQuery)
+console.log(useGetProductsQuery)
+console.log(useGetTransactionsQuery)

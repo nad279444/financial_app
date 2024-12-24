@@ -36,10 +36,11 @@ const Row2 = () => {
       operationalData &&
       operationalData[0].monthlyData.map(
         ({ month, operationalExpenses, nonOperationalExpenses }) => {
+          
           return {
             name: month.substring(0, 3),
-            "Operational Expenses": operationalExpenses,
-            "Non Operational Expenses": nonOperationalExpenses,
+            "Operational Expenses": operationalExpenses.toString().replace(/^\$/, ''),
+            "Non Operational Expenses": nonOperationalExpenses.toString().replace(/^\$/, ''),
           };
         }
       )
@@ -52,8 +53,8 @@ const Row2 = () => {
       productData.map(({ id, price, expense }) => {
         return {
           id: id,
-          price: price,
-          expense: expense,
+          price: price.toString().replace(/^\$/, ''),
+          expense: expense.toString().replace(/^\$/, ''),
         };
       })
     );

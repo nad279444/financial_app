@@ -17,16 +17,18 @@ const Predictions = (props: Props) => {
  const formattedData = useMemo(() => {
   if (!kpiData) return []
   const monthData = kpiData[0].monthlyData
+  
 
   const formatted:Array<DataPoint> = monthData.map(({revenue},i:number) => {
-    return [i,revenue]
+    return [i,Number(revenue.toString().replace(/^\$/, ''))]
   })
   const regressionLine = regression.linear(formatted)
 
   return monthData.map(({month,revenue},i:number) => {
+    console.log(revenue)
     return {
       name : month,
-      "Actual Revenue" : revenue,
+      "Actual Revenue" : Number(revenue.toString().replace(/^\$/, '')),
       "Regression Line" : regressionLine.points[i][1],
       "Predicted Revenue" : regressionLine.predict(i + 12)[1]
     }

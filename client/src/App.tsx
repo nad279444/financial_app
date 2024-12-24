@@ -8,11 +8,13 @@ import Navbar from "@/scenes/navbar";
 import Dashboard from "@/scenes/dashboard";
 import Predictions from "@/scenes/predictions";
 import {loadDataIntoIndexedDB} from '../db/load_db'
+import { useGetKpisQuery,useGetTransactionsQuery } from "./state/api"
 
 
 
 function App() {
   const theme = useMemo(() => createTheme(themeSettings),[])
+
 
   loadDataIntoIndexedDB().catch((error) =>
     console.error("Error loading data into IndexedDB:", error)

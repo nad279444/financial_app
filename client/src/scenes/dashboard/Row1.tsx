@@ -1,7 +1,7 @@
 
 import BoxHeader from "@/reusable-components/box-header";
 import DashboardBox from "@/reusable-components/dashboard-box";
-import { useGetKpisQuery } from "@/state/api";
+import { useGetKpisQuery,useGetProductsQuery,useGetTransactionsQuery } from "@/state/api";
 import { useTheme } from "@mui/material";
 import { useMemo } from "react";
 import {
@@ -19,9 +19,14 @@ import {
   Area,
 } from "recharts";
 
-const Row1 = () => {
+const Row1 =  () => {
   const { palette } = useTheme();
   const { data } = useGetKpisQuery();
+  const { data : transactions } = useGetTransactionsQuery();
+  console.log(data && data[0].monthlyData)
+  console.log(transactions)
+
+  
 
   const revenue = useMemo(() => {
     return (
@@ -29,7 +34,7 @@ const Row1 = () => {
       data[0].monthlyData.map(({ month, revenue }) => {
         return {
           name: month.substring(0, 3),
-          revenue: revenue,
+          revenue: revenue.toString().replace(/^\$/, ''),
         };
       })
     );
@@ -39,10 +44,11 @@ const Row1 = () => {
     return (
       data &&
       data[0].monthlyData.map(({ month, revenue, expenses }) => {
+        
         return {
           name: month.substring(0, 3),
-          revenue: revenue,
-          expenses: expenses,
+          revenue: revenue.toString().replace(/^\$/, ''),
+          expenses: expenses.toString().replace(/^\$/, ''),
         };
       })
     );
@@ -52,10 +58,12 @@ const Row1 = () => {
     return (
       data &&
       data[0].monthlyData.map(({ month, revenue, expenses }) => {
+        const modifiedExpenses = expenses.toString().replace(/^\$/, '')
+        const modifiedRevenue =  revenue.toString().replace(/^\$/, '')
         return {
           name: month.substring(0, 3),
-          revenue: revenue,
-          profit: (revenue - expenses),
+          revenue: modifiedRevenue,
+          profit: (Number(modifiedRevenue) - Number(modifiedExpenses)),
         };
       })
     );

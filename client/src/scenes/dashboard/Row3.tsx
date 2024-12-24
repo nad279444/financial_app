@@ -16,23 +16,42 @@ const Row3 = () => {
   const pieColors = [palette.primary[800], palette.primary[500]];
 
   const { data: kpiData } = useGetKpisQuery();
+
   const { data: productData } = useGetProductsQuery();
   const { data: transactionData } = useGetTransactionsQuery();
 
+  function modifiedCategory(expensesByCategory) {
+    // Remove dollar sign if the values are strings starting with `$`
+    const modified = Object.fromEntries(
+      Object.entries(expensesByCategory).map(([key, value]) => {
+        // Convert to string and remove $ if present, then parse to number
+        const numericValue =
+          typeof value === "string"
+            ? parseFloat(value.replace(/^\$/, ""))
+            : value;
+        return [key, numericValue];
+      })
+    );
+  
+    return modified;
+  }
+  
   const pieChartData = useMemo(() => {
     if (kpiData) {
-      const totalExpenses = kpiData[0].totalExpenses;
-      return Object.entries(kpiData[0].expensesByCategory).map(
+      const totalExpenses = kpiData[0].totalExpenses.toString().replace(/^\$/, '');
+      const categories = modifiedCategory(kpiData[0].expensesByCategory)
+      return Object.entries(categories).map(
         ([key, value]) => {
           return [
             {
               name: key,
-              value: value,
+              value: value
             },
             {
               name: `${key} of Total`,
-              value: totalExpenses - value,
+              value: Number(totalExpenses) - Number(value),
             },
+           
           ];
         }
       );
@@ -49,13 +68,13 @@ const Row3 = () => {
       field: "expense",
       headerName: "Expense",
       flex: 0.5,
-      renderCell: (params: GridCellParams) => `$${params.value}`,
+      renderCell: (params: GridCellParams) => `${params.value}`,
     },
     {
       field: "price",
       headerName: "Price",
       flex: 0.5,
-      renderCell: (params: GridCellParams) => `$${params.value}`,
+      renderCell: (params: GridCellParams) => `${params.value}`,
     },
   ];
 
@@ -74,7 +93,7 @@ const Row3 = () => {
       field: "amount",
       headerName: "Amount",
       flex: 0.35,
-      renderCell: (params: GridCellParams) => `$${params.value}`,
+      renderCell: (params: GridCellParams) => `${params.value}`,
     },
     {
       field: "productIds",
