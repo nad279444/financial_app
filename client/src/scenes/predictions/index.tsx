@@ -25,7 +25,6 @@ const Predictions = (props: Props) => {
   const regressionLine = regression.linear(formatted)
 
   return monthData.map(({month,revenue},i:number) => {
-    console.log(revenue)
     return {
       name : month,
       "Actual Revenue" : Number(revenue.toString().replace(/^\$/, '')),
